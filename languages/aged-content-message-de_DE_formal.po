@@ -1,0 +1,179 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Aged Content Message\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-05-18 23:39+0100\n"
+"PO-Revision-Date: Fri Dec 04 2015 17:59:59 GMT+0100 (CET)\n"
+"Last-Translator: glueckpress <caspar@glueckpress.com>\n"
+"Language-Team: \n"
+"Language: German\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Loco-Target-Locale: de_DE"
+
+#: ../inc/admin.php:139
+msgid "Message Class Attribute"
+msgstr "CSS-Klasse(n)"
+
+#: ../inc/admin.php:258
+msgid ""
+"Multiple class names allowed. If you change this, remember to update your "
+"CSS settings below."
+msgstr ""
+"Mehrere Klassennamen erlaubt. Änderungen bitte in den CSS-Stilen weiter "
+"unten berücksichtigen."
+
+#: ../inc/admin.php:310
+#, php-format
+msgid ""
+"<strong>Aged Content Message</strong> has been activated. Edit your <a "
+"href=\"%s\">settings</a> in order to see the actual notice displayed on your "
+"site."
+msgstr ""
+"<strong>Hinweis für veraltete Inhalte</strong> wurde aktiviert. Bearbeiten "
+"Sie die <a href=\"%s\">Einstellungen</a>, um den eigentlichen Hinweis auf "
+"Ihrer Website anzuzeigen."
+
+#. Name of the plugin
+msgid "Aged Content Message"
+msgstr "Hinweis für veraltete Inhalte"
+
+# @ aged-content-message
+msgid ""
+"Displays a message at the top of single posts published x years ago or "
+"earlier, informing about content that may be outdated."
+msgstr ""
+"Zeigt am Anfang eines einzelnen Beitrags, der x Jahre zuvor oder früher "
+"veröffentlicht wurde, eine Nachricht an, die darüber informiert, dass der "
+"Inhalt möglicherweise veraltet ist."
+
+#. URI of the plugin
+msgid "wordpress.org/plugins/aged-content-message"
+msgstr "de.wordpress.org/plugins/aged-content-message"
+
+#: ../aged-content-message.php:123
+msgid "The times they are a-changin’."
+msgstr "Die Zeiten ändern sich."
+
+#: ../aged-content-message.php:124
+#, php-format
+msgid ""
+"This post seems to be older than %s year—a long time on the internet. It "
+"might be outdated."
+msgstr ""
+"Dieser Beitrag scheint älter als %s Jahr zu sein – eine lange Zeit im "
+"Internet. Der Inhalt ist vielleicht veraltet."
+
+#: ../aged-content-message.php:125
+#, php-format
+msgid ""
+"This post seems to be older than %s years—a long time on the internet. It "
+"might be outdated."
+msgstr ""
+"Dieser Beitrag scheint älter als %s Jahre zu sein – eine lange Zeit im "
+"Internet. Der Inhalt ist vielleicht veraltet."
+
+#: ../inc/admin.php:35 ../inc/admin.php:91
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: ../inc/admin.php:51
+msgid "Aged Content"
+msgstr "Veraltete Inhalte"
+
+#: ../inc/admin.php:75
+msgid "Preview"
+msgstr "Vorschau"
+
+#: ../inc/admin.php:82
+msgid "Activate Message"
+msgstr "Hinweis aktivieren"
+
+#: ../inc/admin.php:98
+msgid "Minimal Post Age"
+msgstr "Beitragsmindestalter"
+
+#: ../inc/admin.php:106
+msgid "Message Heading"
+msgstr "Überschrift"
+
+#: ../inc/admin.php:114
+msgid "Message Body (Singular)"
+msgstr "Text (Singular)"
+
+#: ../inc/admin.php:122
+msgid "Message Body (Plural)"
+msgstr "Text (Plural)"
+
+#: ../inc/admin.php:130
+msgid "Message HTML"
+msgstr "HTML-Template"
+
+#: ../inc/admin.php:138
+msgid "Message CSS"
+msgstr "CSS-Stile"
+
+#: ../inc/admin.php:154
+msgid "<strong>Ready?</strong> Activate the message on your website now."
+msgstr "<strong>Fertig?</strong> Aktivieren Sie den Hinweis jetzt auf Ihrer Website."
+
+#: ../inc/admin.php:157
+msgid ""
+"<strong>The message is being displayed on your website right now.</strong> "
+"Uncheck to deactivate and re-configure."
+msgstr ""
+"<strong>Der Hinweis wird jetzt auf Ihrer Website angezeigt.</strong> "
+"Deaktivieren Sie ihn hier, wenn Sie Einstellungen überarbeiten möchten."
+
+#: ../inc/admin.php:182
+#, php-format
+msgid "Display message for posts older than %s year(s)."
+msgstr "Zeige Hinweis für Beiträge, die älter als %s Jahr(e) sind."
+
+#: ../inc/admin.php:211 ../inc/admin.php:226
+#, php-format
+msgid "<code>%s</code> = post age in years (rounded)"
+msgstr "<code>%s</code> = Beitragsalter in Jahren (gerundet)"
+
+#: ../inc/admin.php:242
+#, php-format
+msgid "<code>%1$s</code> = message heading; <code>%2$s</code> = message body"
+msgstr "<code>%1$s</code> = Hinweisüberschrift; <code>%2$s</code> = Hinweistext"
+
+#: ../inc/admin.php:257
+msgid ""
+"Leave blank in order to not apply any styling, .e.g. when using an external "
+"stylesheet."
+msgstr ""
+"Leer lassen, um keine Styles anzuwenden, z.B. wenn Sie sie über ein externes "
+"Stylesheet zusteuern."
+
+#: ../inc/admin.php:269
+msgid ""
+"Configure your settgins, then review the message above and activate it for "
+"your website."
+msgstr ""
+"Setzen Sie Ihre Einstellungen, dann sehen Sie sich Ihren Hinweis oben in der "
+"Vorschau an, und aktivieren Sie ihn auf Ihrer Website."
+
+#: ../inc/admin.php:332
+msgid ""
+"This is a preview of how your notice looks like with your current settings."
+"<br>Note: Styling may vary dependent on theme styles inherited on your "
+"website."
+msgstr ""
+"Dies ist eine Vorschau, wie der Hinweis mit Ihren zuletzt gespeicherten "
+"Einstellungen aussieht.<br>Beachten Sie: Die visuelle Gestaltung kann auf "
+"Ihrer Website anders ausfallen, abhängig von den Styles, die von Ihrem Theme "
+"vielleicht vererbt werden."
